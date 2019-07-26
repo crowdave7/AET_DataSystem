@@ -54,7 +54,7 @@ for (i in seq(1, length(site_names))) {
                               
     file_name <- sprintf('P:/NEC07123 NERC-RP Innovation ENTRAIN/AET_DataSystem/Processing/EddyPRO/%s/ini/%s.metadata', site_id, site_id)
     
-    strings_metadata = list('site_name', 'site_id', 'altitude', 'latitude', 'longitude', 'instr_1_sw_version', 'instr_1_id', 'file_name')
+    strings_metadata <- list('site_name', 'site_id', 'altitude', 'latitude', 'longitude', 'instr_1_sw_version', 'instr_1_id', 'file_name')
     variables_metadata <- list(site_name, site_id, altitude, latitude, longitude, instr_1_sw_version, instr_1_id, file_name)
     
     count = 1
@@ -85,7 +85,7 @@ for (i in seq(1, length(site_names))) {
     biom_file <- sprintf('P:/NEC07123 NERC-RP Innovation ENTRAIN/AET_DataSystem/Data/Biomet/%s/%s_Biomet_Data.csv', site_id, site_id)
     data_path <- sprintf('P:/NEC07123 NERC-RP Innovation ENTRAIN/AET_DataSystem/Data/Fast/%s/NowProc', site_id)
     
-    strings_processing = list('site_id', 'file_name', 'project_id', 'file_prototype', 'proj_file', 'out_path', 'biom_file', 'data_path')
+    strings_processing <- list('site_id', 'file_name', 'project_id', 'file_prototype', 'proj_file', 'out_path', 'biom_file', 'data_path')
     variables_processing <- list(site_id, file_name, project_id, file_prototype, proj_file, out_path, biom_file, data_path)
     
     count = 1
